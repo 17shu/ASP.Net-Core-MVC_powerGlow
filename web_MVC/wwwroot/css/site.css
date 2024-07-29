@@ -1,0 +1,134 @@
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  min-height: 100%;
+  display:inline-flex;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.optionDiv{
+    margin: 10px;
+}
+.chartOptions{
+   display:flex;
+
+}
+.title {
+    display:inline-flex;
+    background-color: #0057A0;
+    color: aliceblue;
+    margin: 0px;
+    position: absolute;
+    width: -webkit-fill-available;
+    padding-left:25px;
+    align-items:center;
+    justify-content:center;
+}
+
+.formStyle {
+    position: absolute;
+    display: inline-flex;
+    top: 100px;
+}
+
+.tableStyle{
+    position: absolute;
+    top:700px;
+    margin:10px;
+    display:inline-flex;
+    width:100%;
+    font-size: 18px;
+}
+.powerTable {
+
+    margin:5px;
+
+}
+.energyTable {
+    margin: 5px;
+   
+}
+.chartStyle{
+    position:absolute;
+    top:250px;
+    margin:10px;
+    height:450px;
+    width:80%;
+}
+
+thead,tbody{
+    display:block;
+}
+
+tbody {
+    height: 250px;
+    overflow-y: scroll;
+   
+}
+
+.chartDiv{
+    display:inline-flex;
+}
+
+#powerDataChart,
+#energyDataChart{
+    width:70% !important;
+    height:400px !important;
+    margin-right:20px;
+}
+
+
+#powerShowChart,
+#energyShowChart {
+    width: 35% !important;
+    height: 400px !important;
+    margin-right:10px;
+}
+
+.bi-chevron-double-right{
+    margin-right:30px;
+    font-size:28px;
+}
+   
+
+.page {
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    flex-shrink: 0;
+    background-color: #84C1FF;
+    transition: transform 0.3s ease;
+}
+#sidebarDiv{
+    cursor:pointer;
+}
+
+.sidebar.hidden {
+transform: translateX(-100%);
+}
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}

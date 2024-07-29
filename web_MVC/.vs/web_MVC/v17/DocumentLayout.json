@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\v_project\\web_MVC\\web_MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6587F9CC-E5CC-4B62-A82F-43F30B3C7646}|web_MVC.csproj|d:\\v_project\\web_mvc\\web_mvc\\web_mvc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{6587F9CC-E5CC-4B62-A82F-43F30B3C7646}|web_MVC.csproj|solutionrelative:web_mvc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "web_MVC",
+              "DocumentMoniker": "D:\\v_project\\web_MVC\\web_MVC\\web_MVC.csproj",
+              "RelativeDocumentMoniker": "web_MVC.csproj",
+              "ToolTip": "D:\\v_project\\web_MVC\\web_MVC\\web_MVC.csproj",
+              "RelativeToolTip": "web_MVC.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-26T10:24:46.437Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
